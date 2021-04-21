@@ -19,7 +19,7 @@ class Game:
         pygame.init()
 
         self.screen = pygame.display.set_mode((160 * 4, 144 * 4))
-        pygame.display.set_caption("Suscribete a BettaTech!")
+        pygame.display.set_caption("Pikamon!")
 
         clock = pygame.time.Clock()
         clock.tick(60)
@@ -30,8 +30,8 @@ class Game:
         self.pokemon1.attacks = [
             Attack("Cabezazo", 11, PHYSICAL, 10, 90, 100),
             Attack("Hidrobomba", 10, SPECIAL, 10, 110, 100),
-            Attack("penaso", 10, SPECIAL, 10, 115, 100),
-            Attack("culiaton", 10, SPECIAL, 10, 115, 100)
+            Attack("Ola", 10, SPECIAL, 10, 115, 100),
+            Attack("Placaje ", 10, SPECIAL, 10, 115, 100)
         ]
         self.pokemon2.attacks = [
             Attack("Ala de Acero", 10, PHYSICAL, 10, 85, 100)
@@ -79,7 +79,7 @@ class Game:
         # First define pokemons with its stats
 
         # cambiar el nombre del poquemon aqui cambia la img del pokemon
-        pokemon1 = "Charizard"
+        pokemon1 = "Blastoise"
         pokemon2 = "Skarmory"
         with open('db/pokemons.json') as f:
             data = json.load(f)

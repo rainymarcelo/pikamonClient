@@ -5,9 +5,9 @@ from Game import *
 
 
 
-def main(game=None):
-    """game = Game()
-    ip = input("Direccion ip del servidor: ")
+def main():
+    game = Game()
+    """ip = input("Direccion ip del servidor: ")
     nick = input("nickname: ")
     choosed_pokemon = input("pokemon a usar: ")"""
     
